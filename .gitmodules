@@ -1,0 +1,3 @@
+[submodule "git@github.com:V4-Company/finance-service.git"]
+	path = git@github.com:V4-Company/finance-service.git
+	url = git@github.com:athosportes/token_repository.git
