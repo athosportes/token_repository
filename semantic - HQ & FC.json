@@ -1,0 +1,716 @@
+{
+  "$LabDS": {
+    "semantic": {
+      "selectable": {
+        "color": {
+          "primary": {
+            "active": {
+              "value": "{$LabDS.core.color.green.100}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{$LabDS.core.color.green.70}",
+              "type": "color"
+            },
+            "default": {
+              "value": "{$LabDS.core.color.green.50}",
+              "type": "color"
+            },
+            "press": {
+              "value": "{$LabDS.core.color.green.40}",
+              "type": "color"
+            },
+            "loading": {
+              "value": "{$LabDS.semantic.selectable.color.primary.press}",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{$LabDS.core.color.green.20}",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "active": {
+              "value": "{$LabDS.core.color.red.100}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{$LabDS.core.color.red.70}",
+              "type": "color"
+            },
+            "default": {
+              "value": "{$LabDS.core.color.red.50}",
+              "type": "color"
+            },
+            "press": {
+              "value": "{$LabDS.core.color.red.40}",
+              "type": "color"
+            },
+            "loading": {
+              "value": "{$LabDS.semantic.selectable.color.secondary.press}",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{$LabDS.core.color.red.20}",
+              "type": "color"
+            }
+          },
+          "bg": {
+            "success": {
+              "value": "{$LabDS.core.color.green.30}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{$LabDS.core.color.red.30}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{$LabDS.core.color.yellow.30}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "success": {
+              "value": "{$LabDS.semantic.selectable.color.bg.success}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{$LabDS.semantic.selectable.color.bg.error}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{$LabDS.semantic.selectable.color.bg.warning}",
+              "type": "color"
+            }
+          }
+        },
+        "border": {
+          "radius": {
+            "s": {
+              "value": "{$LabDS.core.border.radius.12}",
+              "type": "borderRadius"
+            },
+            "m": {
+              "value": "{$LabDS.core.border.radius.25}",
+              "type": "borderRadius"
+            },
+            "pill": {
+              "value": "{$LabDS.core.border.radius.pill}",
+              "type": "borderRadius"
+            }
+          }
+        },
+        "border-width": {
+          "none": {
+            "value": "{$LabDS.core.border.width.0}",
+            "type": "borderWidth"
+          },
+          "s": {
+            "value": "{$LabDS.core.border.width.1}",
+            "type": "borderWidth"
+          },
+          "m": {
+            "value": "{$LabDS.core.border.width.2}",
+            "type": "borderWidth"
+          }
+        },
+        "shadow": {
+          "none": {
+            "value": "{$LabDS.core.shadow.none}",
+            "type": "boxShadow"
+          },
+          "s": {
+            "value": "{$LabDS.core.shadow.01}",
+            "type": "boxShadow"
+          },
+          "m": {
+            "value": "{$LabDS.core.shadow.02}",
+            "type": "boxShadow"
+          }
+        },
+        "size": {
+          "xs": {
+            "value": "{$LabDS.core.dimension.100}",
+            "type": "sizing"
+          },
+          "s": {
+            "value": "{$LabDS.core.dimension.200}",
+            "type": "sizing"
+          },
+          "m": {
+            "value": "{$LabDS.core.dimension.300}",
+            "type": "sizing"
+          },
+          "l": {
+            "value": "{$LabDS.core.dimension.400}",
+            "type": "sizing"
+          },
+          "xl": {
+            "value": "{$LabDS.core.dimension.500}",
+            "type": "sizing"
+          }
+        }
+      },
+      "color": {
+        "bg": {
+          "default": {
+            "value": "{$LabDS.core.color.white.10}",
+            "type": "color"
+          },
+          "pure": {
+            "value": "{$LabDS.core.color.white.0}",
+            "type": "color"
+          },
+          "cloudy": {
+            "value": "{$LabDS.core.color.gray.20}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{$LabDS.core.color.gray.30}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "pure": {
+            "value": "{$LabDS.core.color.black.0}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{$LabDS.core.color.black.10}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{$LabDS.core.color.gray.100}",
+            "type": "color"
+          }
+        }
+      },
+      "container": {
+        "border": {
+          "radius": {
+            "none": {
+              "value": "{$LabDS.core.border.radius.0}",
+              "type": "borderRadius"
+            },
+            "s": {
+              "value": "{$LabDS.core.border.radius.50}",
+              "type": "borderRadius"
+            },
+            "m": {
+              "value": "{$LabDS.core.border.radius.100}",
+              "type": "borderRadius"
+            },
+            "l": {
+              "value": "{$LabDS.core.border.radius.150}",
+              "type": "borderRadius"
+            },
+            "pill": {
+              "value": "{$LabDS.core.border.radius.pill}",
+              "type": "borderRadius"
+            }
+          }
+        },
+        "shadow": {
+          "l": {
+            "value": "{$LabDS.core.shadow.03}",
+            "type": "boxShadow"
+          },
+          "xl": {
+            "value": "{$LabDS.core.shadow.04}",
+            "type": "boxShadow"
+          },
+          "xxl": {
+            "value": "{$LabDS.core.shadow.05}",
+            "type": "boxShadow"
+          }
+        },
+        "space": {
+          "padding": {
+            "none": {
+              "value": "{$LabDS.core.dimension.0}",
+              "type": "spacing"
+            },
+            "s": {
+              "value": "{$LabDS.core.dimension.250}",
+              "type": "spacing"
+            },
+            "m": {
+              "value": "{$LabDS.core.dimension.500}",
+              "type": "spacing"
+            },
+            "l": {
+              "value": "{$LabDS.core.dimension.1000}",
+              "type": "spacing"
+            }
+          },
+          "gap": {
+            "none": {
+              "value": "{$LabDS.core.dimension.0}",
+              "type": "spacing"
+            },
+            "s": {
+              "value": "{$LabDS.core.dimension.150}",
+              "type": "spacing"
+            },
+            "m": {
+              "value": "{$LabDS.core.dimension.200}",
+              "type": "spacing"
+            },
+            "l": {
+              "value": "{$LabDS.core.dimension.250}",
+              "type": "spacing"
+            },
+            "xl": {
+              "value": "{$LabDS.core.dimension.500}",
+              "type": "spacing"
+            }
+          }
+        }
+      },
+      "size": {
+        "icon": {
+          "s": {
+            "value": "{$LabDS.core.dimension.100}",
+            "type": "sizing"
+          },
+          "m": {
+            "value": "{$LabDS.core.dimension.150}",
+            "type": "sizing"
+          },
+          "l": {
+            "value": "{$LabDS.core.dimension.200}",
+            "type": "sizing"
+          },
+          "xl": {
+            "value": "{$LabDS.core.dimension.250}",
+            "type": "sizing"
+          },
+          "xxl": {
+            "value": "{$LabDS.core.dimension.500}",
+            "type": "sizing"
+          }
+        }
+      },
+      "web": {
+        "size": {
+          "breakpoints": {
+            "xs": {
+              "value": "0px",
+              "type": "sizing"
+            },
+            "sm": {
+              "value": "430px",
+              "type": "sizing"
+            },
+            "md": {
+              "value": "1024px",
+              "type": "sizing"
+            },
+            "l": {
+              "value": "1440px",
+              "type": "sizing"
+            },
+            "xl": {
+              "value": "1680px",
+              "type": "sizing"
+            }
+          }
+        }
+      },
+      "page": {
+        "space": {
+          "padding": {
+            "none": {
+              "value": "{$LabDS.core.dimension.0}",
+              "type": "spacing"
+            },
+            "xxs": {
+              "value": "{$LabDS.core.dimension.25}",
+              "type": "spacing"
+            },
+            "xs": {
+              "value": "{$LabDS.core.dimension.50}",
+              "type": "spacing"
+            },
+            "s": {
+              "value": "{$LabDS.core.dimension.100}",
+              "type": "spacing"
+            },
+            "m": {
+              "value": "{$LabDS.core.dimension.200}",
+              "type": "spacing"
+            },
+            "l": {
+              "value": "{$LabDS.core.dimension.400}",
+              "type": "spacing"
+            },
+            "xl": {
+              "value": "{$LabDS.core.dimension.800}",
+              "type": "spacing"
+            },
+            "xxl": {
+              "value": "{$LabDS.core.dimension.1600}",
+              "type": "spacing"
+            }
+          }
+        }
+      },
+      "body": {
+        "space": {
+          "padding": {
+            "none": {
+              "value": "{$LabDS.core.dimension.0}",
+              "type": "spacing"
+            },
+            "s": {
+              "value": "{$LabDS.core.dimension.150}",
+              "type": "spacing"
+            },
+            "m": {
+              "value": "{$LabDS.core.dimension.200}",
+              "type": "spacing"
+            },
+            "l": {
+              "value": "{$LabDS.core.dimension.250}",
+              "type": "spacing"
+            },
+            "xl": {
+              "value": "{$LabDS.core.dimension.500}",
+              "type": "spacing"
+            }
+          },
+          "gap": {
+            "none": {
+              "value": "{$LabDS.core.dimension.0}",
+              "type": "spacing"
+            },
+            "s": {
+              "value": "{$LabDS.core.dimension.100}",
+              "type": "spacing"
+            },
+            "m": {
+              "value": "{$LabDS.core.dimension.150}",
+              "type": "spacing"
+            },
+            "l": {
+              "value": "{$LabDS.core.dimension.200}",
+              "type": "spacing"
+            },
+            "xl": {
+              "value": "{$LabDS.core.dimension.250}",
+              "type": "spacing"
+            }
+          }
+        },
+        "font": {
+          "size": {
+            "l": {
+              "value": "{$LabDS.core.font.size.05}",
+              "type": "fontSizes"
+            },
+            "ml": {
+              "value": "{$LabDS.core.font.size.06}",
+              "type": "fontSizes"
+            },
+            "m": {
+              "value": "{$LabDS.core.font.size.07}",
+              "type": "fontSizes"
+            },
+            "sm": {
+              "value": "{$LabDS.core.font.size.08}",
+              "type": "fontSizes"
+            },
+            "s": {
+              "value": "{$LabDS.core.font.size.09}",
+              "type": "fontSizes"
+            }
+          },
+          "weight": {
+            "light": {
+              "value": "{$LabDS.core.font.weight.light}",
+              "type": "fontWeights"
+            },
+            "regular": {
+              "value": "{$LabDS.core.font.weight.regular}",
+              "type": "fontWeights"
+            },
+            "regular-italic": {
+              "value": "{$LabDS.core.font.weight.regular-italic}",
+              "type": "fontWeights"
+            },
+            "semibold": {
+              "value": "{$LabDS.core.font.weight.semibold}",
+              "type": "fontWeights"
+            },
+            "bold": {
+              "value": "{$LabDS.core.font.weight.bold}",
+              "type": "fontWeights"
+            }
+          },
+          "line-height": {
+            "07": {
+              "value": "{$LabDS.core.font.line-height.07}",
+              "type": "lineHeights"
+            },
+            "08": {
+              "value": "{$LabDS.core.font.line-height.08}",
+              "type": "lineHeights"
+            }
+          }
+        }
+      },
+      "typography": {
+        "heading": {
+          "h1": {
+            "value": {
+              "fontFamily": "{$LabDS.semantic.font.family.heading}",
+              "lineHeight": "{$LabDS.semantic.heading.font.size.strong}",
+              "fontWeight": "{$LabDS.semantic.heading.font.weight.bold}",
+              "fontSize": "{$LabDS.semantic.heading.font.line-height.01}",
+              "textCase": "{$LabDS.core.font.letter-case.04}"
+            },
+            "type": "typography"
+          },
+          "h2": {
+            "value": {
+              "fontFamily": "{$LabDS.semantic.font.family.heading}",
+              "fontSize": "{$LabDS.semantic.heading.font.size.xxxl}",
+              "fontWeight": "{$LabDS.semantic.heading.font.weight.bold}",
+              "lineHeight": "{$LabDS.semantic.heading.font.line-height.02}",
+              "textCase": "{$LabDS.core.font.letter-case.04}"
+            },
+            "type": "typography"
+          },
+          "h3": {
+            "value": {
+              "fontFamily": "{$LabDS.semantic.font.family.heading}",
+              "fontSize": "{$LabDS.semantic.heading.font.size.xxl}",
+              "fontWeight": "{$LabDS.semantic.heading.font.weight.bold}",
+              "lineHeight": "{$LabDS.semantic.heading.font.line-height.03}",
+              "textCase": "{$LabDS.core.font.letter-case.04}"
+            },
+            "type": "typography"
+          },
+          "h4": {
+            "value": {
+              "fontFamily": "{$LabDS.semantic.font.family.heading}",
+              "fontSize": "{$LabDS.semantic.heading.font.size.xl}",
+              "fontWeight": "{$LabDS.semantic.heading.font.weight.bold}",
+              "lineHeight": "{$LabDS.semantic.heading.font.line-height.04}",
+              "textCase": "{$LabDS.core.font.letter-case.04}"
+            },
+            "type": "typography"
+          },
+          "h5": {
+            "value": {
+              "fontFamily": "{$LabDS.semantic.font.family.heading}",
+              "fontSize": "{$LabDS.semantic.heading.font.size.l}",
+              "fontWeight": "{$LabDS.semantic.heading.font.weight.bold}",
+              "lineHeight": "{$LabDS.semantic.heading.font.line-height.05}",
+              "textCase": "{$LabDS.core.font.letter-case.04}"
+            },
+            "type": "typography"
+          },
+          "h6": {
+            "value": {
+              "fontFamily": "{$LabDS.semantic.font.family.heading}",
+              "fontSize": "{$LabDS.semantic.heading.font.size.ml}",
+              "fontWeight": "{$LabDS.semantic.heading.font.weight.bold}",
+              "lineHeight": "{$LabDS.semantic.heading.font.line-height.06}",
+              "textCase": "{$LabDS.core.font.letter-case.04}"
+            },
+            "type": "typography"
+          }
+        },
+        "body": {
+          "p1": {
+            "bold": {
+              "value": {
+                "fontFamily": "{$LabDS.semantic.font.family.body}",
+                "fontSize": "{$LabDS.semantic.body.font.size.l}",
+                "fontWeight": "{$LabDS.semantic.heading.font.weight.bold}",
+                "lineHeight": "{$LabDS.semantic.heading.font.line-height.05}",
+                "textCase": "{$LabDS.core.font.letter-case.04}"
+              },
+              "type": "typography"
+            },
+            "regular": {
+              "value": {
+                "fontFamily": "{$LabDS.semantic.font.family.body}",
+                "fontSize": "{$LabDS.semantic.body.font.size.l}",
+                "fontWeight": "{$LabDS.semantic.body.font.weight.regular}",
+                "lineHeight": "{$LabDS.semantic.heading.font.line-height.05}",
+                "textCase": "{$LabDS.core.font.letter-case.04}"
+              },
+              "type": "typography"
+            }
+          },
+          "p2": {
+            "bold": {
+              "value": {
+                "fontFamily": "{$LabDS.semantic.font.family.body}",
+                "fontSize": "{$LabDS.semantic.body.font.size.ml}",
+                "fontWeight": "{$LabDS.semantic.heading.font.weight.bold}",
+                "lineHeight": "{$LabDS.semantic.heading.font.line-height.06}",
+                "textCase": "{$LabDS.core.font.letter-case.04}"
+              },
+              "type": "typography"
+            },
+            "regular": {
+              "value": {
+                "fontFamily": "{$LabDS.semantic.font.family.body}",
+                "fontSize": "{$LabDS.semantic.body.font.size.ml}",
+                "fontWeight": "{$LabDS.semantic.body.font.weight.regular}",
+                "lineHeight": "{$LabDS.semantic.heading.font.line-height.06}",
+                "textCase": "{$LabDS.core.font.letter-case.04}"
+              },
+              "type": "typography"
+            },
+            "regular-italic": {
+              "value": {
+                "fontFamily": "{$LabDS.semantic.font.family.body}",
+                "fontSize": "{$LabDS.semantic.body.font.size.ml}",
+                "fontWeight": "{$LabDS.semantic.body.font.weight.regular-italic}",
+                "lineHeight": "{$LabDS.semantic.heading.font.line-height.06}",
+                "textCase": "{$LabDS.core.font.letter-case.04}"
+              },
+              "type": "typography"
+            }
+          },
+          "p3": {
+            "bold": {
+              "value": {
+                "fontFamily": "{$LabDS.semantic.font.family.body}",
+                "fontSize": "{$LabDS.semantic.body.font.size.sm}",
+                "fontWeight": "{$LabDS.semantic.heading.font.weight.bold}",
+                "lineHeight": "{$LabDS.semantic.body.font.line-height.07}",
+                "textCase": "{$LabDS.core.font.letter-case.04}"
+              },
+              "type": "typography"
+            },
+            "regular": {
+              "value": {
+                "fontFamily": "{$LabDS.semantic.font.family.body}",
+                "fontSize": "{$LabDS.semantic.body.font.size.sm}",
+                "fontWeight": "{$LabDS.semantic.body.font.weight.regular}",
+                "lineHeight": "{$LabDS.semantic.body.font.line-height.07}",
+                "textCase": "{$LabDS.core.font.letter-case.04}"
+              },
+              "type": "typography"
+            },
+            "light": {
+              "value": {
+                "fontFamily": "{$LabDS.semantic.font.family.body}",
+                "fontSize": "{$LabDS.semantic.body.font.size.sm}",
+                "fontWeight": "{$LabDS.semantic.body.font.weight.light}",
+                "lineHeight": "{$LabDS.semantic.body.font.line-height.07}",
+                "textCase": "{$LabDS.core.font.letter-case.04}"
+              },
+              "type": "typography"
+            }
+          },
+          "p4": {
+            "regular": {
+              "value": {
+                "fontFamily": "{$LabDS.semantic.font.family.body}",
+                "fontSize": "{$LabDS.semantic.body.font.size.s}",
+                "fontWeight": "{$LabDS.semantic.body.font.weight.regular}",
+                "lineHeight": "{$LabDS.semantic.body.font.line-height.08}",
+                "textCase": "{$LabDS.core.font.letter-case.04}"
+              },
+              "type": "typography"
+            },
+            "bold": {
+              "value": {
+                "fontFamily": "{$LabDS.semantic.font.family.body}",
+                "fontSize": "{$LabDS.semantic.body.font.size.s}",
+                "fontWeight": "{$LabDS.semantic.body.font.weight.bold}",
+                "lineHeight": "{$LabDS.semantic.body.font.line-height.08}",
+                "textCase": "{$LabDS.core.font.letter-case.04}"
+              },
+              "type": "typography"
+            }
+          }
+        }
+      },
+      "font": {
+        "family": {
+          "body": {
+            "value": "{$LabDS.core.font.family.01}",
+            "type": "fontFamilies"
+          },
+          "heading": {
+            "value": "{$LabDS.core.font.family.02}",
+            "type": "fontFamilies"
+          }
+        }
+      },
+      "heading": {
+        "font": {
+          "size": {
+            "strong": {
+              "value": "{$LabDS.core.font.size.01}",
+              "type": "fontSizes"
+            },
+            "xxxl": {
+              "value": "{$LabDS.core.font.size.02}",
+              "type": "fontSizes"
+            },
+            "xxl": {
+              "value": "{$LabDS.core.font.size.03}",
+              "type": "fontSizes"
+            },
+            "xl": {
+              "value": "{$LabDS.core.font.size.04}",
+              "type": "fontSizes"
+            },
+            "l": {
+              "value": "{$LabDS.core.font.size.05}",
+              "type": "fontSizes"
+            },
+            "ml": {
+              "value": "{$LabDS.core.font.size.06}",
+              "type": "fontSizes"
+            },
+            "m": {
+              "value": "{$LabDS.core.font.size.07}",
+              "type": "fontSizes"
+            }
+          },
+          "weight": {
+            "bold": {
+              "value": "{$LabDS.core.font.weight.bold}",
+              "type": "fontWeights"
+            }
+          },
+          "line-height": {
+            "01": {
+              "value": "{$LabDS.core.font.line-height.01}",
+              "type": "lineHeights"
+            },
+            "02": {
+              "value": "{$LabDS.core.font.line-height.02}",
+              "type": "lineHeights"
+            },
+            "03": {
+              "value": "{$LabDS.core.font.line-height.03}",
+              "type": "lineHeights"
+            },
+            "04": {
+              "value": "{$LabDS.core.font.line-height.04}",
+              "type": "lineHeights"
+            },
+            "05": {
+              "value": "{$LabDS.core.font.line-height.05}",
+              "type": "lineHeights"
+            },
+            "06": {
+              "value": "{$LabDS.core.font.line-height.06}",
+              "type": "lineHeights"
+            }
+          }
+        }
+      }
+    }
+  }
+}
